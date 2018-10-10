@@ -1,0 +1,9 @@
+{
+  "name": "inspectpack-duplicates-blog-examples-new-webpack-old-npm",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "one": "1.2.3",
+    "two": "2.3.4"
+  }
+}

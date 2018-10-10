@@ -1,0 +1,7 @@
+{
+  "name": "inspectpack-duplicates-blog-examples-new-webpack",
+  "version": "0.0.1",
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  }
+}
