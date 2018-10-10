@@ -10,7 +10,8 @@ We provide the following scenarios for bundles:
     - `new-npm-unflattened`: Same versions of a lib cannot be flattened
     - `old-npm`
 - `old-webpack`
-    - `new-npm`
+    - `new-npm-flattened`
+    - `new-npm-unflattened`
     - `old-npm`
 
 ## Install
