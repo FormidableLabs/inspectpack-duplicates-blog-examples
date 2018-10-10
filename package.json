@@ -1,0 +1,12 @@
+{
+  "name": "inspectpack-duplicates-blog-examples",
+  "version": "0.0.1",
+  "description": "Examples for Inspectpack DuplicatesPlugin blog post.",
+  "main": "index.js",
+  "author": "Ryan Roemer <ryan.roemer@formidable.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
