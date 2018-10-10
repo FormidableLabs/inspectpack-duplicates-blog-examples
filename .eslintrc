@@ -1,0 +1,10 @@
+---
+extends:
+  - formidable/configurations/es6-browser
+
+globals:
+  __dirname: false
+
+rules:
+  no-console: off
+  arrow-body-style: off

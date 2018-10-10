@@ -1,11 +1,4 @@
-.git
-.hg
-
-.DS_Store
-.project
+dist
 /node_modules
 /scenarios/new-webpack/node_modules
 /scenarios/old-webpack/node_modules
-npm-debug.log*
-yarn-error.log*
-package-lock.json
