@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "build-new-wp": "cd scenarios/new-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
-    "build-old-wp": "cd scenarios/old-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
+    "build-new-wp": "cd scenarios/new-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-flattened-identical/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
+    "build-old-wp": "cd scenarios/old-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-flattened-identical/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
     "build": "yarn build-new-wp && yarn build-old-wp"
   },
   "dependencies": {
