@@ -1,5 +1,5 @@
 {
-  "name": "inspectpack-duplicates-blog-examples-new-webpack-old-npm",
+  "name": "scenario-new-webpack-new-npm-flattened",
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.0.0",
