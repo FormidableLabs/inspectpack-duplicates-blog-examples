@@ -1,5 +1,6 @@
 const { resolve } = require("path");
 const webpack = require("webpack");
+const { DuplicatesPlugin } = require("/Users/rye/scm/fmd/inspectpack/plugin");
 
 module.exports = {
   devtool: false,
@@ -13,6 +14,7 @@ module.exports = {
     filename: "[name].js"
   },
   plugins: [
-    new webpack.optimize.DedupePlugin()
+    new webpack.optimize.DedupePlugin(),
+    new DuplicatesPlugin()
   ]
 };
