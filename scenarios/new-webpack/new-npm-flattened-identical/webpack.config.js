@@ -19,6 +19,9 @@ module.exports = {
       emitError: process.env.DPCP_EMIT_ERROR === "true",
       verbose: process.env.DPCP_VERBOSE === "true"
     }),
-    new DuplicatesPlugin()
+    new DuplicatesPlugin({
+      emitErrors: process.env.IP_EMIT_ERROR === "true",
+      verbose: process.env.IP_VERBOSE === "true"
+    })
   ]
 };

@@ -15,6 +15,9 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.DedupePlugin(),
-    new DuplicatesPlugin()
+    new DuplicatesPlugin({
+      emitErrors: process.env.IP_EMIT_ERROR === "true",
+      verbose: process.env.IP_VERBOSE === "true"
+    })
   ]
 };
