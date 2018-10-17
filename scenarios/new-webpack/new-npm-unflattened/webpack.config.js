@@ -15,7 +15,10 @@ module.exports = {
     filename: "[name].js"
   },
   plugins: [
-    new DuplicatePackageCheckerPlugin(),
+    new DuplicatePackageCheckerPlugin({
+      emitError: process.env.DPCP_EMIT_ERROR === "true",
+      verbose: process.env.DPCP_VERBOSE === "true"
+    }),
     new DuplicatesPlugin()
   ]
 };
