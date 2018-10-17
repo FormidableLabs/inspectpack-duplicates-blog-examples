@@ -1,5 +1,5 @@
 {
-  "name": "scenario-new-webpack-new-npm-unflattened",
+  "name": "scenario-old-webpack-new-npm-unflattened",
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.1.0",

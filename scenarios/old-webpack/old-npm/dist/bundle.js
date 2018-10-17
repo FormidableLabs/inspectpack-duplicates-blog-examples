@@ -70,7 +70,7 @@
   \**************************/
 /***/ (function(module, exports, __webpack_require__) {
 
-	const { get } = __webpack_require__(/*! lodash */ 1); // lodash@4.0.0
+	const { get } = __webpack_require__(/*! lodash */ 1); // lodash@^4.1.0
 	const { getOne } = __webpack_require__(/*! one */ 2);
 	const { getTwo } = __webpack_require__(/*! two */ 4);
 
