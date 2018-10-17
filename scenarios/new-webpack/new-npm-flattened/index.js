@@ -1,4 +1,4 @@
-const { get } = require("lodash"); // lodash@4.0.0
+const { get } = require("lodash"); // lodash@^4.1.0
 const { getOne } = require("one");
 const { getTwo } = require("two");
 
