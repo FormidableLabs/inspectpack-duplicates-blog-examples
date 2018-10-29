@@ -1,6 +1,6 @@
 const { resolve } = require("path");
 const webpack = require("webpack");
-const { DuplicatesPlugin } = require("/Users/rye/scm/fmd/inspectpack/plugin");
+const { DuplicatesPlugin } = require("inspectpack/plugin");
 
 module.exports = {
   devtool: false,

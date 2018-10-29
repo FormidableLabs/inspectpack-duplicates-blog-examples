@@ -13,13 +13,12 @@
   },
   "dependencies": {
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
     "eslint-config-formidable": "^4.0.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-promise": "^3.7.0"
-  },
-  "devDependencies": {
-    "duplicate-package-checker-webpack-plugin": "^3.0.0"
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint": "^4.19.1",
+    "inspectpack": "^4.0.0"
   }
 }
