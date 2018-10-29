@@ -1,5 +1,5 @@
 {
-  "name": "inspectpack-duplicates-blog-examples-new-webpack",
+  "name": "scenario-new-webpack",
   "version": "0.0.1",
   "devDependencies": {
     "webpack": "^4.20.2",

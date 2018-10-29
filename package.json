@@ -6,16 +6,19 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
+    "build-readme": "cd scenarios/new-webpack && webpack --config new-npm-unflattened/webpack.config.js",
     "build-new-wp": "cd scenarios/new-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-flattened-identical/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
     "build-old-wp": "cd scenarios/old-webpack && webpack --config old-npm/webpack.config.js && webpack --config new-npm-flattened/webpack.config.js && webpack --config new-npm-flattened-identical/webpack.config.js && webpack --config new-npm-unflattened/webpack.config.js",
     "build": "yarn build-new-wp && yarn build-old-wp"
   },
   "dependencies": {
     "babel-eslint": "^8.2.3",
-    "eslint": "^4.19.1",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
     "eslint-config-formidable": "^4.0.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-promise": "^3.7.0"
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint": "^4.19.1",
+    "inspectpack": "^4.0.0"
   }
 }

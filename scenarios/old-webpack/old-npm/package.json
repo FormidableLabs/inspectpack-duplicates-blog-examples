@@ -1,8 +1,8 @@
 {
-  "name": "inspectpack-duplicates-blog-examples-new-webpack-old-npm",
+  "name": "scenario-old-webpack-old-npm",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.0.0",
+    "lodash": "^4.1.0",
     "one": "1.2.3",
     "two": "2.3.4"
   }

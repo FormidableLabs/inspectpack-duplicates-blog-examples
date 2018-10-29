@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-const { get } = __webpack_require__(/*! lodash */ "./old-npm/node_modules/lodash/index.js"); // lodash@4.0.0
+const { get } = __webpack_require__(/*! lodash */ "./old-npm/node_modules/lodash/index.js"); // lodash@^4.1.0
 const { getOne } = __webpack_require__(/*! one */ "./old-npm/node_modules/one/index.js");
 const { getTwo } = __webpack_require__(/*! two */ "./old-npm/node_modules/two/index.js");
 
